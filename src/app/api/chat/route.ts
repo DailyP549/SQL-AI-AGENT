@@ -13,7 +13,7 @@ export async function POST(req: Request) {
 Rules:
 - Generate  only SELECTED queries (no INSERT,UPDATE,DELETE,DROP) 
 -Return valid SQLite syntax 
-Alrespond the in a helpful , Conversational tone while being technicallyaccurate.`;
+Alrespond the in a helpful, Conversational tone while being technicallyaccurate.`;
 
 
   const result = streamText({
